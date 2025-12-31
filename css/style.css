@@ -1,0 +1,101 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* -------- Global Styles (Element Selector) -------- */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
+}
+
+/* -------- Header & Navigation -------- */
+header {
+    background-color: #1e3a8a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;              /* Flexbox used */
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* Hover effect on links */
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #ffdd57;
+}
+
+/* -------- Main Layout -------- */
+main {
+    display: flex;              /* Flexbox layout */
+    flex-direction: column;
+    gap: 40px;
+    padding: 30px;
+}
+
+/* -------- Section Styling (Class Selector) -------- */
+section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* -------- Images -------- */
+img {
+    max-width: 100%;
+    border-radius: 6px;
+}
+
+/* -------- Contact Form -------- */
+form input,
+form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+button {
+    background-color: #1e3a8a;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Hover effect on button */
+button:hover {
+    background-color: #3b82f6;
+}
+
+/* -------- Footer -------- */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #1e3a8a;
+    color: white;
+}
+
+/* -------- Responsive Design (Mobile) -------- */
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main {
+        padding: 15px;
+    }
+}
