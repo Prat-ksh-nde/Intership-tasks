@@ -1,10 +1,11 @@
 # Internship Tasks
 
 ## Description
-This repository contains internship tasks including a basic HTML portfolio website.
+This repository contains internship tasks including a basic HTML, CSS portfolio website.
 
 ## Technologies Used
 - HTML5
+- CSS3
 
 ## Features
 - Semantic HTML
